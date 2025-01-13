@@ -34,7 +34,7 @@ add_llvm_executable(eclair main.cpp
                  lib/Basic/Diagnostic.cpp lib/Basic/TokenKinds.cpp
                  lib/Driver/Driver.cpp
                  lib/CodeGen/Decls.cpp lib/CodeGen/Exprs.cpp lib/CodeGen/Stmts.cpp lib/CodeGen/Types.cpp
-                 lib/CodeGen2/Decls.cpp lib/CodeGen2/Exprs.cpp lib/CodeGen2/Stmts.cpp lib/CodeGen2/Types.cpp
+                 lib/Semantic/Decls.cpp lib/Semantic/Exprs.cpp lib/Semantic/Stmts.cpp lib/Semantic/Types.cpp
                  lib/Lexer/Lexer.cpp lib/Lexer/TokenStream.cpp
                  lib/Parser/Parser.cpp
               )

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang
+CMAKE_SOURCE_DIR = /home/jeremmy/university/EclairLang
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build
+CMAKE_BINARY_DIR = /home/jeremmy/university/EclairLang/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/eclair.dir/depend.make
@@ -70,214 +70,214 @@ include CMakeFiles/eclair.dir/progress.make
 include CMakeFiles/eclair.dir/flags.make
 
 CMakeFiles/eclair.dir/main.cpp.o: CMakeFiles/eclair.dir/flags.make
-CMakeFiles/eclair.dir/main.cpp.o: /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/main.cpp
+CMakeFiles/eclair.dir/main.cpp.o: /home/jeremmy/university/EclairLang/main.cpp
 CMakeFiles/eclair.dir/main.cpp.o: CMakeFiles/eclair.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/eclair.dir/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/main.cpp.o -MF CMakeFiles/eclair.dir/main.cpp.o.d -o CMakeFiles/eclair.dir/main.cpp.o -c /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremmy/university/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/eclair.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/main.cpp.o -MF CMakeFiles/eclair.dir/main.cpp.o.d -o CMakeFiles/eclair.dir/main.cpp.o -c /home/jeremmy/university/EclairLang/main.cpp
 
 CMakeFiles/eclair.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eclair.dir/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/main.cpp > CMakeFiles/eclair.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremmy/university/EclairLang/main.cpp > CMakeFiles/eclair.dir/main.cpp.i
 
 CMakeFiles/eclair.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eclair.dir/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/main.cpp -o CMakeFiles/eclair.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremmy/university/EclairLang/main.cpp -o CMakeFiles/eclair.dir/main.cpp.s
 
 CMakeFiles/eclair.dir/lib/Basic/Diagnostic.cpp.o: CMakeFiles/eclair.dir/flags.make
-CMakeFiles/eclair.dir/lib/Basic/Diagnostic.cpp.o: /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/Basic/Diagnostic.cpp
+CMakeFiles/eclair.dir/lib/Basic/Diagnostic.cpp.o: /home/jeremmy/university/EclairLang/lib/Basic/Diagnostic.cpp
 CMakeFiles/eclair.dir/lib/Basic/Diagnostic.cpp.o: CMakeFiles/eclair.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/eclair.dir/lib/Basic/Diagnostic.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/Basic/Diagnostic.cpp.o -MF CMakeFiles/eclair.dir/lib/Basic/Diagnostic.cpp.o.d -o CMakeFiles/eclair.dir/lib/Basic/Diagnostic.cpp.o -c /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/Basic/Diagnostic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremmy/university/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/eclair.dir/lib/Basic/Diagnostic.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/Basic/Diagnostic.cpp.o -MF CMakeFiles/eclair.dir/lib/Basic/Diagnostic.cpp.o.d -o CMakeFiles/eclair.dir/lib/Basic/Diagnostic.cpp.o -c /home/jeremmy/university/EclairLang/lib/Basic/Diagnostic.cpp
 
 CMakeFiles/eclair.dir/lib/Basic/Diagnostic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eclair.dir/lib/Basic/Diagnostic.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/Basic/Diagnostic.cpp > CMakeFiles/eclair.dir/lib/Basic/Diagnostic.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremmy/university/EclairLang/lib/Basic/Diagnostic.cpp > CMakeFiles/eclair.dir/lib/Basic/Diagnostic.cpp.i
 
 CMakeFiles/eclair.dir/lib/Basic/Diagnostic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eclair.dir/lib/Basic/Diagnostic.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/Basic/Diagnostic.cpp -o CMakeFiles/eclair.dir/lib/Basic/Diagnostic.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremmy/university/EclairLang/lib/Basic/Diagnostic.cpp -o CMakeFiles/eclair.dir/lib/Basic/Diagnostic.cpp.s
 
 CMakeFiles/eclair.dir/lib/Basic/TokenKinds.cpp.o: CMakeFiles/eclair.dir/flags.make
-CMakeFiles/eclair.dir/lib/Basic/TokenKinds.cpp.o: /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/Basic/TokenKinds.cpp
+CMakeFiles/eclair.dir/lib/Basic/TokenKinds.cpp.o: /home/jeremmy/university/EclairLang/lib/Basic/TokenKinds.cpp
 CMakeFiles/eclair.dir/lib/Basic/TokenKinds.cpp.o: CMakeFiles/eclair.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/eclair.dir/lib/Basic/TokenKinds.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/Basic/TokenKinds.cpp.o -MF CMakeFiles/eclair.dir/lib/Basic/TokenKinds.cpp.o.d -o CMakeFiles/eclair.dir/lib/Basic/TokenKinds.cpp.o -c /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/Basic/TokenKinds.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremmy/university/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/eclair.dir/lib/Basic/TokenKinds.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/Basic/TokenKinds.cpp.o -MF CMakeFiles/eclair.dir/lib/Basic/TokenKinds.cpp.o.d -o CMakeFiles/eclair.dir/lib/Basic/TokenKinds.cpp.o -c /home/jeremmy/university/EclairLang/lib/Basic/TokenKinds.cpp
 
 CMakeFiles/eclair.dir/lib/Basic/TokenKinds.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eclair.dir/lib/Basic/TokenKinds.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/Basic/TokenKinds.cpp > CMakeFiles/eclair.dir/lib/Basic/TokenKinds.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremmy/university/EclairLang/lib/Basic/TokenKinds.cpp > CMakeFiles/eclair.dir/lib/Basic/TokenKinds.cpp.i
 
 CMakeFiles/eclair.dir/lib/Basic/TokenKinds.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eclair.dir/lib/Basic/TokenKinds.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/Basic/TokenKinds.cpp -o CMakeFiles/eclair.dir/lib/Basic/TokenKinds.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremmy/university/EclairLang/lib/Basic/TokenKinds.cpp -o CMakeFiles/eclair.dir/lib/Basic/TokenKinds.cpp.s
 
 CMakeFiles/eclair.dir/lib/Driver/Driver.cpp.o: CMakeFiles/eclair.dir/flags.make
-CMakeFiles/eclair.dir/lib/Driver/Driver.cpp.o: /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/Driver/Driver.cpp
+CMakeFiles/eclair.dir/lib/Driver/Driver.cpp.o: /home/jeremmy/university/EclairLang/lib/Driver/Driver.cpp
 CMakeFiles/eclair.dir/lib/Driver/Driver.cpp.o: CMakeFiles/eclair.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/eclair.dir/lib/Driver/Driver.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/Driver/Driver.cpp.o -MF CMakeFiles/eclair.dir/lib/Driver/Driver.cpp.o.d -o CMakeFiles/eclair.dir/lib/Driver/Driver.cpp.o -c /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/Driver/Driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremmy/university/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/eclair.dir/lib/Driver/Driver.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/Driver/Driver.cpp.o -MF CMakeFiles/eclair.dir/lib/Driver/Driver.cpp.o.d -o CMakeFiles/eclair.dir/lib/Driver/Driver.cpp.o -c /home/jeremmy/university/EclairLang/lib/Driver/Driver.cpp
 
 CMakeFiles/eclair.dir/lib/Driver/Driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eclair.dir/lib/Driver/Driver.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/Driver/Driver.cpp > CMakeFiles/eclair.dir/lib/Driver/Driver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremmy/university/EclairLang/lib/Driver/Driver.cpp > CMakeFiles/eclair.dir/lib/Driver/Driver.cpp.i
 
 CMakeFiles/eclair.dir/lib/Driver/Driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eclair.dir/lib/Driver/Driver.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/Driver/Driver.cpp -o CMakeFiles/eclair.dir/lib/Driver/Driver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremmy/university/EclairLang/lib/Driver/Driver.cpp -o CMakeFiles/eclair.dir/lib/Driver/Driver.cpp.s
 
 CMakeFiles/eclair.dir/lib/CodeGen/Decls.cpp.o: CMakeFiles/eclair.dir/flags.make
-CMakeFiles/eclair.dir/lib/CodeGen/Decls.cpp.o: /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen/Decls.cpp
+CMakeFiles/eclair.dir/lib/CodeGen/Decls.cpp.o: /home/jeremmy/university/EclairLang/lib/CodeGen/Decls.cpp
 CMakeFiles/eclair.dir/lib/CodeGen/Decls.cpp.o: CMakeFiles/eclair.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/eclair.dir/lib/CodeGen/Decls.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/CodeGen/Decls.cpp.o -MF CMakeFiles/eclair.dir/lib/CodeGen/Decls.cpp.o.d -o CMakeFiles/eclair.dir/lib/CodeGen/Decls.cpp.o -c /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen/Decls.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremmy/university/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/eclair.dir/lib/CodeGen/Decls.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/CodeGen/Decls.cpp.o -MF CMakeFiles/eclair.dir/lib/CodeGen/Decls.cpp.o.d -o CMakeFiles/eclair.dir/lib/CodeGen/Decls.cpp.o -c /home/jeremmy/university/EclairLang/lib/CodeGen/Decls.cpp
 
 CMakeFiles/eclair.dir/lib/CodeGen/Decls.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eclair.dir/lib/CodeGen/Decls.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen/Decls.cpp > CMakeFiles/eclair.dir/lib/CodeGen/Decls.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremmy/university/EclairLang/lib/CodeGen/Decls.cpp > CMakeFiles/eclair.dir/lib/CodeGen/Decls.cpp.i
 
 CMakeFiles/eclair.dir/lib/CodeGen/Decls.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eclair.dir/lib/CodeGen/Decls.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen/Decls.cpp -o CMakeFiles/eclair.dir/lib/CodeGen/Decls.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremmy/university/EclairLang/lib/CodeGen/Decls.cpp -o CMakeFiles/eclair.dir/lib/CodeGen/Decls.cpp.s
 
 CMakeFiles/eclair.dir/lib/CodeGen/Exprs.cpp.o: CMakeFiles/eclair.dir/flags.make
-CMakeFiles/eclair.dir/lib/CodeGen/Exprs.cpp.o: /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen/Exprs.cpp
+CMakeFiles/eclair.dir/lib/CodeGen/Exprs.cpp.o: /home/jeremmy/university/EclairLang/lib/CodeGen/Exprs.cpp
 CMakeFiles/eclair.dir/lib/CodeGen/Exprs.cpp.o: CMakeFiles/eclair.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/eclair.dir/lib/CodeGen/Exprs.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/CodeGen/Exprs.cpp.o -MF CMakeFiles/eclair.dir/lib/CodeGen/Exprs.cpp.o.d -o CMakeFiles/eclair.dir/lib/CodeGen/Exprs.cpp.o -c /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen/Exprs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremmy/university/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/eclair.dir/lib/CodeGen/Exprs.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/CodeGen/Exprs.cpp.o -MF CMakeFiles/eclair.dir/lib/CodeGen/Exprs.cpp.o.d -o CMakeFiles/eclair.dir/lib/CodeGen/Exprs.cpp.o -c /home/jeremmy/university/EclairLang/lib/CodeGen/Exprs.cpp
 
 CMakeFiles/eclair.dir/lib/CodeGen/Exprs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eclair.dir/lib/CodeGen/Exprs.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen/Exprs.cpp > CMakeFiles/eclair.dir/lib/CodeGen/Exprs.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremmy/university/EclairLang/lib/CodeGen/Exprs.cpp > CMakeFiles/eclair.dir/lib/CodeGen/Exprs.cpp.i
 
 CMakeFiles/eclair.dir/lib/CodeGen/Exprs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eclair.dir/lib/CodeGen/Exprs.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen/Exprs.cpp -o CMakeFiles/eclair.dir/lib/CodeGen/Exprs.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremmy/university/EclairLang/lib/CodeGen/Exprs.cpp -o CMakeFiles/eclair.dir/lib/CodeGen/Exprs.cpp.s
 
 CMakeFiles/eclair.dir/lib/CodeGen/Stmts.cpp.o: CMakeFiles/eclair.dir/flags.make
-CMakeFiles/eclair.dir/lib/CodeGen/Stmts.cpp.o: /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen/Stmts.cpp
+CMakeFiles/eclair.dir/lib/CodeGen/Stmts.cpp.o: /home/jeremmy/university/EclairLang/lib/CodeGen/Stmts.cpp
 CMakeFiles/eclair.dir/lib/CodeGen/Stmts.cpp.o: CMakeFiles/eclair.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/eclair.dir/lib/CodeGen/Stmts.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/CodeGen/Stmts.cpp.o -MF CMakeFiles/eclair.dir/lib/CodeGen/Stmts.cpp.o.d -o CMakeFiles/eclair.dir/lib/CodeGen/Stmts.cpp.o -c /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen/Stmts.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremmy/university/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/eclair.dir/lib/CodeGen/Stmts.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/CodeGen/Stmts.cpp.o -MF CMakeFiles/eclair.dir/lib/CodeGen/Stmts.cpp.o.d -o CMakeFiles/eclair.dir/lib/CodeGen/Stmts.cpp.o -c /home/jeremmy/university/EclairLang/lib/CodeGen/Stmts.cpp
 
 CMakeFiles/eclair.dir/lib/CodeGen/Stmts.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eclair.dir/lib/CodeGen/Stmts.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen/Stmts.cpp > CMakeFiles/eclair.dir/lib/CodeGen/Stmts.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremmy/university/EclairLang/lib/CodeGen/Stmts.cpp > CMakeFiles/eclair.dir/lib/CodeGen/Stmts.cpp.i
 
 CMakeFiles/eclair.dir/lib/CodeGen/Stmts.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eclair.dir/lib/CodeGen/Stmts.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen/Stmts.cpp -o CMakeFiles/eclair.dir/lib/CodeGen/Stmts.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremmy/university/EclairLang/lib/CodeGen/Stmts.cpp -o CMakeFiles/eclair.dir/lib/CodeGen/Stmts.cpp.s
 
 CMakeFiles/eclair.dir/lib/CodeGen/Types.cpp.o: CMakeFiles/eclair.dir/flags.make
-CMakeFiles/eclair.dir/lib/CodeGen/Types.cpp.o: /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen/Types.cpp
+CMakeFiles/eclair.dir/lib/CodeGen/Types.cpp.o: /home/jeremmy/university/EclairLang/lib/CodeGen/Types.cpp
 CMakeFiles/eclair.dir/lib/CodeGen/Types.cpp.o: CMakeFiles/eclair.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/eclair.dir/lib/CodeGen/Types.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/CodeGen/Types.cpp.o -MF CMakeFiles/eclair.dir/lib/CodeGen/Types.cpp.o.d -o CMakeFiles/eclair.dir/lib/CodeGen/Types.cpp.o -c /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen/Types.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremmy/university/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/eclair.dir/lib/CodeGen/Types.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/CodeGen/Types.cpp.o -MF CMakeFiles/eclair.dir/lib/CodeGen/Types.cpp.o.d -o CMakeFiles/eclair.dir/lib/CodeGen/Types.cpp.o -c /home/jeremmy/university/EclairLang/lib/CodeGen/Types.cpp
 
 CMakeFiles/eclair.dir/lib/CodeGen/Types.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eclair.dir/lib/CodeGen/Types.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen/Types.cpp > CMakeFiles/eclair.dir/lib/CodeGen/Types.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremmy/university/EclairLang/lib/CodeGen/Types.cpp > CMakeFiles/eclair.dir/lib/CodeGen/Types.cpp.i
 
 CMakeFiles/eclair.dir/lib/CodeGen/Types.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eclair.dir/lib/CodeGen/Types.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen/Types.cpp -o CMakeFiles/eclair.dir/lib/CodeGen/Types.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremmy/university/EclairLang/lib/CodeGen/Types.cpp -o CMakeFiles/eclair.dir/lib/CodeGen/Types.cpp.s
 
-CMakeFiles/eclair.dir/lib/CodeGen2/Decls.cpp.o: CMakeFiles/eclair.dir/flags.make
-CMakeFiles/eclair.dir/lib/CodeGen2/Decls.cpp.o: /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen2/Decls.cpp
-CMakeFiles/eclair.dir/lib/CodeGen2/Decls.cpp.o: CMakeFiles/eclair.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/eclair.dir/lib/CodeGen2/Decls.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/CodeGen2/Decls.cpp.o -MF CMakeFiles/eclair.dir/lib/CodeGen2/Decls.cpp.o.d -o CMakeFiles/eclair.dir/lib/CodeGen2/Decls.cpp.o -c /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen2/Decls.cpp
+CMakeFiles/eclair.dir/lib/Semantic/Decls.cpp.o: CMakeFiles/eclair.dir/flags.make
+CMakeFiles/eclair.dir/lib/Semantic/Decls.cpp.o: /home/jeremmy/university/EclairLang/lib/Semantic/Decls.cpp
+CMakeFiles/eclair.dir/lib/Semantic/Decls.cpp.o: CMakeFiles/eclair.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremmy/university/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/eclair.dir/lib/Semantic/Decls.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/Semantic/Decls.cpp.o -MF CMakeFiles/eclair.dir/lib/Semantic/Decls.cpp.o.d -o CMakeFiles/eclair.dir/lib/Semantic/Decls.cpp.o -c /home/jeremmy/university/EclairLang/lib/Semantic/Decls.cpp
 
-CMakeFiles/eclair.dir/lib/CodeGen2/Decls.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eclair.dir/lib/CodeGen2/Decls.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen2/Decls.cpp > CMakeFiles/eclair.dir/lib/CodeGen2/Decls.cpp.i
+CMakeFiles/eclair.dir/lib/Semantic/Decls.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eclair.dir/lib/Semantic/Decls.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremmy/university/EclairLang/lib/Semantic/Decls.cpp > CMakeFiles/eclair.dir/lib/Semantic/Decls.cpp.i
 
-CMakeFiles/eclair.dir/lib/CodeGen2/Decls.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eclair.dir/lib/CodeGen2/Decls.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen2/Decls.cpp -o CMakeFiles/eclair.dir/lib/CodeGen2/Decls.cpp.s
+CMakeFiles/eclair.dir/lib/Semantic/Decls.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eclair.dir/lib/Semantic/Decls.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremmy/university/EclairLang/lib/Semantic/Decls.cpp -o CMakeFiles/eclair.dir/lib/Semantic/Decls.cpp.s
 
-CMakeFiles/eclair.dir/lib/CodeGen2/Exprs.cpp.o: CMakeFiles/eclair.dir/flags.make
-CMakeFiles/eclair.dir/lib/CodeGen2/Exprs.cpp.o: /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen2/Exprs.cpp
-CMakeFiles/eclair.dir/lib/CodeGen2/Exprs.cpp.o: CMakeFiles/eclair.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/eclair.dir/lib/CodeGen2/Exprs.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/CodeGen2/Exprs.cpp.o -MF CMakeFiles/eclair.dir/lib/CodeGen2/Exprs.cpp.o.d -o CMakeFiles/eclair.dir/lib/CodeGen2/Exprs.cpp.o -c /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen2/Exprs.cpp
+CMakeFiles/eclair.dir/lib/Semantic/Exprs.cpp.o: CMakeFiles/eclair.dir/flags.make
+CMakeFiles/eclair.dir/lib/Semantic/Exprs.cpp.o: /home/jeremmy/university/EclairLang/lib/Semantic/Exprs.cpp
+CMakeFiles/eclair.dir/lib/Semantic/Exprs.cpp.o: CMakeFiles/eclair.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremmy/university/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/eclair.dir/lib/Semantic/Exprs.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/Semantic/Exprs.cpp.o -MF CMakeFiles/eclair.dir/lib/Semantic/Exprs.cpp.o.d -o CMakeFiles/eclair.dir/lib/Semantic/Exprs.cpp.o -c /home/jeremmy/university/EclairLang/lib/Semantic/Exprs.cpp
 
-CMakeFiles/eclair.dir/lib/CodeGen2/Exprs.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eclair.dir/lib/CodeGen2/Exprs.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen2/Exprs.cpp > CMakeFiles/eclair.dir/lib/CodeGen2/Exprs.cpp.i
+CMakeFiles/eclair.dir/lib/Semantic/Exprs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eclair.dir/lib/Semantic/Exprs.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremmy/university/EclairLang/lib/Semantic/Exprs.cpp > CMakeFiles/eclair.dir/lib/Semantic/Exprs.cpp.i
 
-CMakeFiles/eclair.dir/lib/CodeGen2/Exprs.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eclair.dir/lib/CodeGen2/Exprs.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen2/Exprs.cpp -o CMakeFiles/eclair.dir/lib/CodeGen2/Exprs.cpp.s
+CMakeFiles/eclair.dir/lib/Semantic/Exprs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eclair.dir/lib/Semantic/Exprs.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremmy/university/EclairLang/lib/Semantic/Exprs.cpp -o CMakeFiles/eclair.dir/lib/Semantic/Exprs.cpp.s
 
-CMakeFiles/eclair.dir/lib/CodeGen2/Stmts.cpp.o: CMakeFiles/eclair.dir/flags.make
-CMakeFiles/eclair.dir/lib/CodeGen2/Stmts.cpp.o: /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen2/Stmts.cpp
-CMakeFiles/eclair.dir/lib/CodeGen2/Stmts.cpp.o: CMakeFiles/eclair.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/eclair.dir/lib/CodeGen2/Stmts.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/CodeGen2/Stmts.cpp.o -MF CMakeFiles/eclair.dir/lib/CodeGen2/Stmts.cpp.o.d -o CMakeFiles/eclair.dir/lib/CodeGen2/Stmts.cpp.o -c /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen2/Stmts.cpp
+CMakeFiles/eclair.dir/lib/Semantic/Stmts.cpp.o: CMakeFiles/eclair.dir/flags.make
+CMakeFiles/eclair.dir/lib/Semantic/Stmts.cpp.o: /home/jeremmy/university/EclairLang/lib/Semantic/Stmts.cpp
+CMakeFiles/eclair.dir/lib/Semantic/Stmts.cpp.o: CMakeFiles/eclair.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremmy/university/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/eclair.dir/lib/Semantic/Stmts.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/Semantic/Stmts.cpp.o -MF CMakeFiles/eclair.dir/lib/Semantic/Stmts.cpp.o.d -o CMakeFiles/eclair.dir/lib/Semantic/Stmts.cpp.o -c /home/jeremmy/university/EclairLang/lib/Semantic/Stmts.cpp
 
-CMakeFiles/eclair.dir/lib/CodeGen2/Stmts.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eclair.dir/lib/CodeGen2/Stmts.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen2/Stmts.cpp > CMakeFiles/eclair.dir/lib/CodeGen2/Stmts.cpp.i
+CMakeFiles/eclair.dir/lib/Semantic/Stmts.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eclair.dir/lib/Semantic/Stmts.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremmy/university/EclairLang/lib/Semantic/Stmts.cpp > CMakeFiles/eclair.dir/lib/Semantic/Stmts.cpp.i
 
-CMakeFiles/eclair.dir/lib/CodeGen2/Stmts.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eclair.dir/lib/CodeGen2/Stmts.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen2/Stmts.cpp -o CMakeFiles/eclair.dir/lib/CodeGen2/Stmts.cpp.s
+CMakeFiles/eclair.dir/lib/Semantic/Stmts.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eclair.dir/lib/Semantic/Stmts.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremmy/university/EclairLang/lib/Semantic/Stmts.cpp -o CMakeFiles/eclair.dir/lib/Semantic/Stmts.cpp.s
 
-CMakeFiles/eclair.dir/lib/CodeGen2/Types.cpp.o: CMakeFiles/eclair.dir/flags.make
-CMakeFiles/eclair.dir/lib/CodeGen2/Types.cpp.o: /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen2/Types.cpp
-CMakeFiles/eclair.dir/lib/CodeGen2/Types.cpp.o: CMakeFiles/eclair.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/eclair.dir/lib/CodeGen2/Types.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/CodeGen2/Types.cpp.o -MF CMakeFiles/eclair.dir/lib/CodeGen2/Types.cpp.o.d -o CMakeFiles/eclair.dir/lib/CodeGen2/Types.cpp.o -c /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen2/Types.cpp
+CMakeFiles/eclair.dir/lib/Semantic/Types.cpp.o: CMakeFiles/eclair.dir/flags.make
+CMakeFiles/eclair.dir/lib/Semantic/Types.cpp.o: /home/jeremmy/university/EclairLang/lib/Semantic/Types.cpp
+CMakeFiles/eclair.dir/lib/Semantic/Types.cpp.o: CMakeFiles/eclair.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremmy/university/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/eclair.dir/lib/Semantic/Types.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/Semantic/Types.cpp.o -MF CMakeFiles/eclair.dir/lib/Semantic/Types.cpp.o.d -o CMakeFiles/eclair.dir/lib/Semantic/Types.cpp.o -c /home/jeremmy/university/EclairLang/lib/Semantic/Types.cpp
 
-CMakeFiles/eclair.dir/lib/CodeGen2/Types.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eclair.dir/lib/CodeGen2/Types.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen2/Types.cpp > CMakeFiles/eclair.dir/lib/CodeGen2/Types.cpp.i
+CMakeFiles/eclair.dir/lib/Semantic/Types.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eclair.dir/lib/Semantic/Types.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremmy/university/EclairLang/lib/Semantic/Types.cpp > CMakeFiles/eclair.dir/lib/Semantic/Types.cpp.i
 
-CMakeFiles/eclair.dir/lib/CodeGen2/Types.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eclair.dir/lib/CodeGen2/Types.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/CodeGen2/Types.cpp -o CMakeFiles/eclair.dir/lib/CodeGen2/Types.cpp.s
+CMakeFiles/eclair.dir/lib/Semantic/Types.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eclair.dir/lib/Semantic/Types.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremmy/university/EclairLang/lib/Semantic/Types.cpp -o CMakeFiles/eclair.dir/lib/Semantic/Types.cpp.s
 
 CMakeFiles/eclair.dir/lib/Lexer/Lexer.cpp.o: CMakeFiles/eclair.dir/flags.make
-CMakeFiles/eclair.dir/lib/Lexer/Lexer.cpp.o: /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/Lexer/Lexer.cpp
+CMakeFiles/eclair.dir/lib/Lexer/Lexer.cpp.o: /home/jeremmy/university/EclairLang/lib/Lexer/Lexer.cpp
 CMakeFiles/eclair.dir/lib/Lexer/Lexer.cpp.o: CMakeFiles/eclair.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/eclair.dir/lib/Lexer/Lexer.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/Lexer/Lexer.cpp.o -MF CMakeFiles/eclair.dir/lib/Lexer/Lexer.cpp.o.d -o CMakeFiles/eclair.dir/lib/Lexer/Lexer.cpp.o -c /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/Lexer/Lexer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremmy/university/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/eclair.dir/lib/Lexer/Lexer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/Lexer/Lexer.cpp.o -MF CMakeFiles/eclair.dir/lib/Lexer/Lexer.cpp.o.d -o CMakeFiles/eclair.dir/lib/Lexer/Lexer.cpp.o -c /home/jeremmy/university/EclairLang/lib/Lexer/Lexer.cpp
 
 CMakeFiles/eclair.dir/lib/Lexer/Lexer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eclair.dir/lib/Lexer/Lexer.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/Lexer/Lexer.cpp > CMakeFiles/eclair.dir/lib/Lexer/Lexer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremmy/university/EclairLang/lib/Lexer/Lexer.cpp > CMakeFiles/eclair.dir/lib/Lexer/Lexer.cpp.i
 
 CMakeFiles/eclair.dir/lib/Lexer/Lexer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eclair.dir/lib/Lexer/Lexer.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/Lexer/Lexer.cpp -o CMakeFiles/eclair.dir/lib/Lexer/Lexer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremmy/university/EclairLang/lib/Lexer/Lexer.cpp -o CMakeFiles/eclair.dir/lib/Lexer/Lexer.cpp.s
 
 CMakeFiles/eclair.dir/lib/Lexer/TokenStream.cpp.o: CMakeFiles/eclair.dir/flags.make
-CMakeFiles/eclair.dir/lib/Lexer/TokenStream.cpp.o: /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/Lexer/TokenStream.cpp
+CMakeFiles/eclair.dir/lib/Lexer/TokenStream.cpp.o: /home/jeremmy/university/EclairLang/lib/Lexer/TokenStream.cpp
 CMakeFiles/eclair.dir/lib/Lexer/TokenStream.cpp.o: CMakeFiles/eclair.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/eclair.dir/lib/Lexer/TokenStream.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/Lexer/TokenStream.cpp.o -MF CMakeFiles/eclair.dir/lib/Lexer/TokenStream.cpp.o.d -o CMakeFiles/eclair.dir/lib/Lexer/TokenStream.cpp.o -c /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/Lexer/TokenStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremmy/university/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/eclair.dir/lib/Lexer/TokenStream.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/Lexer/TokenStream.cpp.o -MF CMakeFiles/eclair.dir/lib/Lexer/TokenStream.cpp.o.d -o CMakeFiles/eclair.dir/lib/Lexer/TokenStream.cpp.o -c /home/jeremmy/university/EclairLang/lib/Lexer/TokenStream.cpp
 
 CMakeFiles/eclair.dir/lib/Lexer/TokenStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eclair.dir/lib/Lexer/TokenStream.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/Lexer/TokenStream.cpp > CMakeFiles/eclair.dir/lib/Lexer/TokenStream.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremmy/university/EclairLang/lib/Lexer/TokenStream.cpp > CMakeFiles/eclair.dir/lib/Lexer/TokenStream.cpp.i
 
 CMakeFiles/eclair.dir/lib/Lexer/TokenStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eclair.dir/lib/Lexer/TokenStream.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/Lexer/TokenStream.cpp -o CMakeFiles/eclair.dir/lib/Lexer/TokenStream.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremmy/university/EclairLang/lib/Lexer/TokenStream.cpp -o CMakeFiles/eclair.dir/lib/Lexer/TokenStream.cpp.s
 
 CMakeFiles/eclair.dir/lib/Parser/Parser.cpp.o: CMakeFiles/eclair.dir/flags.make
-CMakeFiles/eclair.dir/lib/Parser/Parser.cpp.o: /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/Parser/Parser.cpp
+CMakeFiles/eclair.dir/lib/Parser/Parser.cpp.o: /home/jeremmy/university/EclairLang/lib/Parser/Parser.cpp
 CMakeFiles/eclair.dir/lib/Parser/Parser.cpp.o: CMakeFiles/eclair.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/eclair.dir/lib/Parser/Parser.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/Parser/Parser.cpp.o -MF CMakeFiles/eclair.dir/lib/Parser/Parser.cpp.o.d -o CMakeFiles/eclair.dir/lib/Parser/Parser.cpp.o -c /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/Parser/Parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeremmy/university/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/eclair.dir/lib/Parser/Parser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eclair.dir/lib/Parser/Parser.cpp.o -MF CMakeFiles/eclair.dir/lib/Parser/Parser.cpp.o.d -o CMakeFiles/eclair.dir/lib/Parser/Parser.cpp.o -c /home/jeremmy/university/EclairLang/lib/Parser/Parser.cpp
 
 CMakeFiles/eclair.dir/lib/Parser/Parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eclair.dir/lib/Parser/Parser.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/Parser/Parser.cpp > CMakeFiles/eclair.dir/lib/Parser/Parser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremmy/university/EclairLang/lib/Parser/Parser.cpp > CMakeFiles/eclair.dir/lib/Parser/Parser.cpp.i
 
 CMakeFiles/eclair.dir/lib/Parser/Parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eclair.dir/lib/Parser/Parser.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/lib/Parser/Parser.cpp -o CMakeFiles/eclair.dir/lib/Parser/Parser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremmy/university/EclairLang/lib/Parser/Parser.cpp -o CMakeFiles/eclair.dir/lib/Parser/Parser.cpp.s
 
 # Object files for target eclair
 eclair_OBJECTS = \
@@ -289,10 +289,10 @@ eclair_OBJECTS = \
 "CMakeFiles/eclair.dir/lib/CodeGen/Exprs.cpp.o" \
 "CMakeFiles/eclair.dir/lib/CodeGen/Stmts.cpp.o" \
 "CMakeFiles/eclair.dir/lib/CodeGen/Types.cpp.o" \
-"CMakeFiles/eclair.dir/lib/CodeGen2/Decls.cpp.o" \
-"CMakeFiles/eclair.dir/lib/CodeGen2/Exprs.cpp.o" \
-"CMakeFiles/eclair.dir/lib/CodeGen2/Stmts.cpp.o" \
-"CMakeFiles/eclair.dir/lib/CodeGen2/Types.cpp.o" \
+"CMakeFiles/eclair.dir/lib/Semantic/Decls.cpp.o" \
+"CMakeFiles/eclair.dir/lib/Semantic/Exprs.cpp.o" \
+"CMakeFiles/eclair.dir/lib/Semantic/Stmts.cpp.o" \
+"CMakeFiles/eclair.dir/lib/Semantic/Types.cpp.o" \
 "CMakeFiles/eclair.dir/lib/Lexer/Lexer.cpp.o" \
 "CMakeFiles/eclair.dir/lib/Lexer/TokenStream.cpp.o" \
 "CMakeFiles/eclair.dir/lib/Parser/Parser.cpp.o"
@@ -308,17 +308,17 @@ bin/eclair: CMakeFiles/eclair.dir/lib/CodeGen/Decls.cpp.o
 bin/eclair: CMakeFiles/eclair.dir/lib/CodeGen/Exprs.cpp.o
 bin/eclair: CMakeFiles/eclair.dir/lib/CodeGen/Stmts.cpp.o
 bin/eclair: CMakeFiles/eclair.dir/lib/CodeGen/Types.cpp.o
-bin/eclair: CMakeFiles/eclair.dir/lib/CodeGen2/Decls.cpp.o
-bin/eclair: CMakeFiles/eclair.dir/lib/CodeGen2/Exprs.cpp.o
-bin/eclair: CMakeFiles/eclair.dir/lib/CodeGen2/Stmts.cpp.o
-bin/eclair: CMakeFiles/eclair.dir/lib/CodeGen2/Types.cpp.o
+bin/eclair: CMakeFiles/eclair.dir/lib/Semantic/Decls.cpp.o
+bin/eclair: CMakeFiles/eclair.dir/lib/Semantic/Exprs.cpp.o
+bin/eclair: CMakeFiles/eclair.dir/lib/Semantic/Stmts.cpp.o
+bin/eclair: CMakeFiles/eclair.dir/lib/Semantic/Types.cpp.o
 bin/eclair: CMakeFiles/eclair.dir/lib/Lexer/Lexer.cpp.o
 bin/eclair: CMakeFiles/eclair.dir/lib/Lexer/TokenStream.cpp.o
 bin/eclair: CMakeFiles/eclair.dir/lib/Parser/Parser.cpp.o
 bin/eclair: CMakeFiles/eclair.dir/build.make
 bin/eclair: /usr/lib/llvm-15/lib/libLLVM-15.so.1
 bin/eclair: CMakeFiles/eclair.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable bin/eclair"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jeremmy/university/EclairLang/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable bin/eclair"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/eclair.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -330,6 +330,6 @@ CMakeFiles/eclair.dir/clean:
 .PHONY : CMakeFiles/eclair.dir/clean
 
 CMakeFiles/eclair.dir/depend:
-	cd /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build/CMakeFiles/eclair.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jeremmy/university/EclairLang/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremmy/university/EclairLang /home/jeremmy/university/EclairLang /home/jeremmy/university/EclairLang/build /home/jeremmy/university/EclairLang/build /home/jeremmy/university/EclairLang/build/CMakeFiles/eclair.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/eclair.dir/depend
 

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang
+CMAKE_SOURCE_DIR = /home/jeremmy/university/EclairLang
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build
+CMAKE_BINARY_DIR = /home/jeremmy/university/EclairLang/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	/usr/bin/cpack --config ./CPackSourceConfig.cmake /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build/CPackSourceConfig.cmake
+	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/jeremmy/university/EclairLang/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -107,9 +107,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build/CMakeFiles /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeremmy/university/EclairLang/build/CMakeFiles /home/jeremmy/university/EclairLang/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeremmy/university/EclairLang/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -332,102 +332,6 @@ lib/CodeGen/Types.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/eclair.dir/build.make CMakeFiles/eclair.dir/lib/CodeGen/Types.cpp.s
 .PHONY : lib/CodeGen/Types.cpp.s
 
-lib/CodeGen2/Decls.o: lib/CodeGen2/Decls.cpp.o
-.PHONY : lib/CodeGen2/Decls.o
-
-# target to build an object file
-lib/CodeGen2/Decls.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eclair.dir/build.make CMakeFiles/eclair.dir/lib/CodeGen2/Decls.cpp.o
-.PHONY : lib/CodeGen2/Decls.cpp.o
-
-lib/CodeGen2/Decls.i: lib/CodeGen2/Decls.cpp.i
-.PHONY : lib/CodeGen2/Decls.i
-
-# target to preprocess a source file
-lib/CodeGen2/Decls.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eclair.dir/build.make CMakeFiles/eclair.dir/lib/CodeGen2/Decls.cpp.i
-.PHONY : lib/CodeGen2/Decls.cpp.i
-
-lib/CodeGen2/Decls.s: lib/CodeGen2/Decls.cpp.s
-.PHONY : lib/CodeGen2/Decls.s
-
-# target to generate assembly for a file
-lib/CodeGen2/Decls.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eclair.dir/build.make CMakeFiles/eclair.dir/lib/CodeGen2/Decls.cpp.s
-.PHONY : lib/CodeGen2/Decls.cpp.s
-
-lib/CodeGen2/Exprs.o: lib/CodeGen2/Exprs.cpp.o
-.PHONY : lib/CodeGen2/Exprs.o
-
-# target to build an object file
-lib/CodeGen2/Exprs.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eclair.dir/build.make CMakeFiles/eclair.dir/lib/CodeGen2/Exprs.cpp.o
-.PHONY : lib/CodeGen2/Exprs.cpp.o
-
-lib/CodeGen2/Exprs.i: lib/CodeGen2/Exprs.cpp.i
-.PHONY : lib/CodeGen2/Exprs.i
-
-# target to preprocess a source file
-lib/CodeGen2/Exprs.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eclair.dir/build.make CMakeFiles/eclair.dir/lib/CodeGen2/Exprs.cpp.i
-.PHONY : lib/CodeGen2/Exprs.cpp.i
-
-lib/CodeGen2/Exprs.s: lib/CodeGen2/Exprs.cpp.s
-.PHONY : lib/CodeGen2/Exprs.s
-
-# target to generate assembly for a file
-lib/CodeGen2/Exprs.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eclair.dir/build.make CMakeFiles/eclair.dir/lib/CodeGen2/Exprs.cpp.s
-.PHONY : lib/CodeGen2/Exprs.cpp.s
-
-lib/CodeGen2/Stmts.o: lib/CodeGen2/Stmts.cpp.o
-.PHONY : lib/CodeGen2/Stmts.o
-
-# target to build an object file
-lib/CodeGen2/Stmts.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eclair.dir/build.make CMakeFiles/eclair.dir/lib/CodeGen2/Stmts.cpp.o
-.PHONY : lib/CodeGen2/Stmts.cpp.o
-
-lib/CodeGen2/Stmts.i: lib/CodeGen2/Stmts.cpp.i
-.PHONY : lib/CodeGen2/Stmts.i
-
-# target to preprocess a source file
-lib/CodeGen2/Stmts.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eclair.dir/build.make CMakeFiles/eclair.dir/lib/CodeGen2/Stmts.cpp.i
-.PHONY : lib/CodeGen2/Stmts.cpp.i
-
-lib/CodeGen2/Stmts.s: lib/CodeGen2/Stmts.cpp.s
-.PHONY : lib/CodeGen2/Stmts.s
-
-# target to generate assembly for a file
-lib/CodeGen2/Stmts.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eclair.dir/build.make CMakeFiles/eclair.dir/lib/CodeGen2/Stmts.cpp.s
-.PHONY : lib/CodeGen2/Stmts.cpp.s
-
-lib/CodeGen2/Types.o: lib/CodeGen2/Types.cpp.o
-.PHONY : lib/CodeGen2/Types.o
-
-# target to build an object file
-lib/CodeGen2/Types.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eclair.dir/build.make CMakeFiles/eclair.dir/lib/CodeGen2/Types.cpp.o
-.PHONY : lib/CodeGen2/Types.cpp.o
-
-lib/CodeGen2/Types.i: lib/CodeGen2/Types.cpp.i
-.PHONY : lib/CodeGen2/Types.i
-
-# target to preprocess a source file
-lib/CodeGen2/Types.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eclair.dir/build.make CMakeFiles/eclair.dir/lib/CodeGen2/Types.cpp.i
-.PHONY : lib/CodeGen2/Types.cpp.i
-
-lib/CodeGen2/Types.s: lib/CodeGen2/Types.cpp.s
-.PHONY : lib/CodeGen2/Types.s
-
-# target to generate assembly for a file
-lib/CodeGen2/Types.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eclair.dir/build.make CMakeFiles/eclair.dir/lib/CodeGen2/Types.cpp.s
-.PHONY : lib/CodeGen2/Types.cpp.s
-
 lib/Driver/Driver.o: lib/Driver/Driver.cpp.o
 .PHONY : lib/Driver/Driver.o
 
@@ -524,6 +428,102 @@ lib/Parser/Parser.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/eclair.dir/build.make CMakeFiles/eclair.dir/lib/Parser/Parser.cpp.s
 .PHONY : lib/Parser/Parser.cpp.s
 
+lib/Semantic/Decls.o: lib/Semantic/Decls.cpp.o
+.PHONY : lib/Semantic/Decls.o
+
+# target to build an object file
+lib/Semantic/Decls.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eclair.dir/build.make CMakeFiles/eclair.dir/lib/Semantic/Decls.cpp.o
+.PHONY : lib/Semantic/Decls.cpp.o
+
+lib/Semantic/Decls.i: lib/Semantic/Decls.cpp.i
+.PHONY : lib/Semantic/Decls.i
+
+# target to preprocess a source file
+lib/Semantic/Decls.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eclair.dir/build.make CMakeFiles/eclair.dir/lib/Semantic/Decls.cpp.i
+.PHONY : lib/Semantic/Decls.cpp.i
+
+lib/Semantic/Decls.s: lib/Semantic/Decls.cpp.s
+.PHONY : lib/Semantic/Decls.s
+
+# target to generate assembly for a file
+lib/Semantic/Decls.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eclair.dir/build.make CMakeFiles/eclair.dir/lib/Semantic/Decls.cpp.s
+.PHONY : lib/Semantic/Decls.cpp.s
+
+lib/Semantic/Exprs.o: lib/Semantic/Exprs.cpp.o
+.PHONY : lib/Semantic/Exprs.o
+
+# target to build an object file
+lib/Semantic/Exprs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eclair.dir/build.make CMakeFiles/eclair.dir/lib/Semantic/Exprs.cpp.o
+.PHONY : lib/Semantic/Exprs.cpp.o
+
+lib/Semantic/Exprs.i: lib/Semantic/Exprs.cpp.i
+.PHONY : lib/Semantic/Exprs.i
+
+# target to preprocess a source file
+lib/Semantic/Exprs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eclair.dir/build.make CMakeFiles/eclair.dir/lib/Semantic/Exprs.cpp.i
+.PHONY : lib/Semantic/Exprs.cpp.i
+
+lib/Semantic/Exprs.s: lib/Semantic/Exprs.cpp.s
+.PHONY : lib/Semantic/Exprs.s
+
+# target to generate assembly for a file
+lib/Semantic/Exprs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eclair.dir/build.make CMakeFiles/eclair.dir/lib/Semantic/Exprs.cpp.s
+.PHONY : lib/Semantic/Exprs.cpp.s
+
+lib/Semantic/Stmts.o: lib/Semantic/Stmts.cpp.o
+.PHONY : lib/Semantic/Stmts.o
+
+# target to build an object file
+lib/Semantic/Stmts.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eclair.dir/build.make CMakeFiles/eclair.dir/lib/Semantic/Stmts.cpp.o
+.PHONY : lib/Semantic/Stmts.cpp.o
+
+lib/Semantic/Stmts.i: lib/Semantic/Stmts.cpp.i
+.PHONY : lib/Semantic/Stmts.i
+
+# target to preprocess a source file
+lib/Semantic/Stmts.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eclair.dir/build.make CMakeFiles/eclair.dir/lib/Semantic/Stmts.cpp.i
+.PHONY : lib/Semantic/Stmts.cpp.i
+
+lib/Semantic/Stmts.s: lib/Semantic/Stmts.cpp.s
+.PHONY : lib/Semantic/Stmts.s
+
+# target to generate assembly for a file
+lib/Semantic/Stmts.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eclair.dir/build.make CMakeFiles/eclair.dir/lib/Semantic/Stmts.cpp.s
+.PHONY : lib/Semantic/Stmts.cpp.s
+
+lib/Semantic/Types.o: lib/Semantic/Types.cpp.o
+.PHONY : lib/Semantic/Types.o
+
+# target to build an object file
+lib/Semantic/Types.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eclair.dir/build.make CMakeFiles/eclair.dir/lib/Semantic/Types.cpp.o
+.PHONY : lib/Semantic/Types.cpp.o
+
+lib/Semantic/Types.i: lib/Semantic/Types.cpp.i
+.PHONY : lib/Semantic/Types.i
+
+# target to preprocess a source file
+lib/Semantic/Types.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eclair.dir/build.make CMakeFiles/eclair.dir/lib/Semantic/Types.cpp.i
+.PHONY : lib/Semantic/Types.cpp.i
+
+lib/Semantic/Types.s: lib/Semantic/Types.cpp.s
+.PHONY : lib/Semantic/Types.s
+
+# target to generate assembly for a file
+lib/Semantic/Types.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eclair.dir/build.make CMakeFiles/eclair.dir/lib/Semantic/Types.cpp.s
+.PHONY : lib/Semantic/Types.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -580,18 +580,6 @@ help:
 	@echo "... lib/CodeGen/Types.o"
 	@echo "... lib/CodeGen/Types.i"
 	@echo "... lib/CodeGen/Types.s"
-	@echo "... lib/CodeGen2/Decls.o"
-	@echo "... lib/CodeGen2/Decls.i"
-	@echo "... lib/CodeGen2/Decls.s"
-	@echo "... lib/CodeGen2/Exprs.o"
-	@echo "... lib/CodeGen2/Exprs.i"
-	@echo "... lib/CodeGen2/Exprs.s"
-	@echo "... lib/CodeGen2/Stmts.o"
-	@echo "... lib/CodeGen2/Stmts.i"
-	@echo "... lib/CodeGen2/Stmts.s"
-	@echo "... lib/CodeGen2/Types.o"
-	@echo "... lib/CodeGen2/Types.i"
-	@echo "... lib/CodeGen2/Types.s"
 	@echo "... lib/Driver/Driver.o"
 	@echo "... lib/Driver/Driver.i"
 	@echo "... lib/Driver/Driver.s"
@@ -604,6 +592,18 @@ help:
 	@echo "... lib/Parser/Parser.o"
 	@echo "... lib/Parser/Parser.i"
 	@echo "... lib/Parser/Parser.s"
+	@echo "... lib/Semantic/Decls.o"
+	@echo "... lib/Semantic/Decls.i"
+	@echo "... lib/Semantic/Decls.s"
+	@echo "... lib/Semantic/Exprs.o"
+	@echo "... lib/Semantic/Exprs.i"
+	@echo "... lib/Semantic/Exprs.s"
+	@echo "... lib/Semantic/Stmts.o"
+	@echo "... lib/Semantic/Stmts.i"
+	@echo "... lib/Semantic/Stmts.s"
+	@echo "... lib/Semantic/Types.o"
+	@echo "... lib/Semantic/Types.i"
+	@echo "... lib/Semantic/Types.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

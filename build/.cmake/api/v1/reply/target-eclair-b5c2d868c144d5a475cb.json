@@ -86,7 +86,7 @@
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/include"
+					"path" : "/home/jeremmy/university/EclairLang/include"
 				}
 			],
 			"language" : "CXX",
@@ -215,25 +215,25 @@
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "lib/CodeGen2/Decls.cpp",
+			"path" : "lib/Semantic/Decls.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "lib/CodeGen2/Exprs.cpp",
+			"path" : "lib/Semantic/Exprs.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "lib/CodeGen2/Stmts.cpp",
+			"path" : "lib/Semantic/Stmts.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "lib/CodeGen2/Types.cpp",
+			"path" : "lib/Semantic/Types.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

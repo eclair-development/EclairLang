@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang
+CMAKE_SOURCE_DIR = /home/jeremmy/university/EclairLang
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build
+CMAKE_BINARY_DIR = /home/jeremmy/university/EclairLang/build
 
 # Utility rule file for omp_gen.
 
@@ -78,6 +78,6 @@ CMakeFiles/omp_gen.dir/clean:
 .PHONY : CMakeFiles/omp_gen.dir/clean
 
 CMakeFiles/omp_gen.dir/depend:
-	cd /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build /media/jeremmy/da1d618b-cfef-4388-b8fd-5549ade2359b/home/gerjerry/EclairLang/build/CMakeFiles/omp_gen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jeremmy/university/EclairLang/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeremmy/university/EclairLang /home/jeremmy/university/EclairLang /home/jeremmy/university/EclairLang/build /home/jeremmy/university/EclairLang/build /home/jeremmy/university/EclairLang/build/CMakeFiles/omp_gen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/omp_gen.dir/depend
 

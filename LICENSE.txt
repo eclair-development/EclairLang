@@ -1,6 +1,6 @@
-MIT License
+Eclair License
 
-Copyright (c) 2023 Ilya Moiseenko
+Copyright (c) 2025 Sasha Ichkitidze
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

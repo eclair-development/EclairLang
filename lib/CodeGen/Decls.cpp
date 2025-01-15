@@ -171,7 +171,7 @@ void ModuleDeclAST::generateCode() {
     (*it)->generateCode(Context);
   }
 
-  Context.TheModule->dump();
+  // Context.TheModule->dump();
 
   if (!OutputFilename.empty()) {
     std::error_code errorInfo;

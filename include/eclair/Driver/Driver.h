@@ -27,8 +27,8 @@
 #include "llvm/Transforms/Scalar/GVN.h"
 
 
-enum OptLevel {
-  NoOptimizations, O1, O2, O3
+enum EclairOpts {
+  NoOptimizations, OR, OL, OA, ORL, OLA, ORA, ORLA
 };
 
 namespace llvm {
@@ -122,6 +122,13 @@ public:
 private:
   static Expected<ThreadSafeModule>
   optimizeModule(ThreadSafeModule TSM, const MaterializationResponsibility &R);
+
+  static void optimizeRecursions(legacy::FunctionPassManager &FPM);
+  
+  static void optimizeLoops(legacy::FunctionPassManager &FPM);
+
+  static void optimizeArrayAccess(legacy::FunctionPassManager &FPM);
+
 };
 
 } // namespace orc

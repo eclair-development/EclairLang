@@ -1,27 +1,81 @@
-#include "eclair/Driver/Driver.h"
-#include "llvm/Support/Debug.h"
+#include <eclair/Driver/Driver.h>
+#include <llvm/Support/Debug.h>
+#include <iostream>
 
 using namespace llvm;
 
-llvm::cl::opt<OptLevel> OptimizationLevel(llvm::cl::desc("Choose optimization level:"),
+llvm::cl::opt<EclairOpts> Optimization(llvm::cl::desc("Choose optimization level:"),
   llvm::cl::values(
     clEnumValN(NoOptimizations, "O0", "No optimizations"),
-    clEnumVal(O1, "Enable trivial optimizations"),
-    clEnumVal(O2, "Enable default optimizations"),
-    clEnumVal(O3, "Enable expensive optimizations")
+    clEnumVal(OR, "optimization for recursive functions"),
+    clEnumVal(OL, "optimizations for loops"),
+    clEnumVal(OA, "optimizations for array access"),
+    clEnumVal(ORL, "optimization for recursive functions and loops"),
+    clEnumVal(OLA, "optimizations for loops and array access"),
+    clEnumVal(ORA, "optimizations for recursive functions and array access"),
+    clEnumVal(ORLA, "optimization for recursive functions, loops and array access")
   )
 );
 
 namespace llvm {
 namespace orc {
+void EclairJIT::optimizeRecursions(legacy::FunctionPassManager &FPM) {
+    FPM.add(llvm::createTailCallEliminationPass()); 
+    FPM.add(llvm::createConstraintEliminationPass());
+    FPM.add(llvm::createInstructionCombiningPass());
+    FPM.add(llvm::createGVNPass());
+}
+void EclairJIT::optimizeLoops(legacy::FunctionPassManager &FPM) {
+    FPM.add(llvm::createLoopSimplifyCFGPass());
+}
+void EclairJIT::optimizeArrayAccess(legacy::FunctionPassManager &FPM) {
+    FPM.add(llvm::createMemCpyOptPass());
+}
 Expected<ThreadSafeModule> EclairJIT::optimizeModule(ThreadSafeModule TSM, const MaterializationResponsibility &R) {
     TSM.withModuleDo([](Module &M) {
-      auto FPM = std::make_unique<legacy::FunctionPassManager>(&M);
+      auto FPM = legacy::FunctionPassManager(&M);
+      
+      switch(Optimization){
+        case OR : {
+            optimizeRecursions(FPM);
+        }
+        case OL : {
+            optimizeLoops(FPM);
+        }
+        case OA : {
+          optimizeArrayAccess(FPM);
+        }
+        case ORL : {
+          optimizeRecursions(FPM);
+          optimizeLoops(FPM);
+        }
+        case OLA : {
+          optimizeLoops(FPM);
+          optimizeArrayAccess(FPM);
+        }
+        case ORA : {
+          optimizeRecursions(FPM);
+          optimizeArrayAccess(FPM);
+        }
+        case ORLA : {
+          optimizeRecursions(FPM);
+          optimizeLoops(FPM);
+          optimizeArrayAccess(FPM);
+        }
+      }
 
-      FPM->doInitialization();
+      // if (Optimization > NoOptimizations) {
+      //   std::cout << "Optimization: " << Optimization << std::endl;
+      //   FPM->add(createInstructionCombiningPass());
+      //   FPM->add(createReassociatePass());
+      //   FPM->add(createGVNPass());
+      //   FPM->add(createCFGSimplificationPass());
+      // }
+
+      FPM.doInitialization();
 
       for (auto &F : M) {
-        FPM->run(F);
+        FPM.run(F);
       }
     });
 
@@ -52,6 +106,7 @@ llvm::orc::EclairJIT& getJIT() {
 }
 
 void initJIT() {
+  std::cout << "opt" << std::endl;
   llvm::DebugFlag = false;
   TheJIT = ExitOnErr(llvm::orc::EclairJIT::Create());
 

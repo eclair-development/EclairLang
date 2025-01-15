@@ -228,16 +228,23 @@ void FuncDeclAST::doSemantic5(Scope* scope) {
   }
 }
 
+extern "C" void lle_X_printDouble(double val) {
+  outs() << val;
+}
 
 extern "C" void lle_X_printInt(int val) {
   outs() << val;
 }
 
-extern "C" void lle_X_printDouble(double val) {
+extern "C" void lle_X_printChar(char val) {
   outs() << val;
 }
 
-extern "C" void lle_X_printLine() {
+extern "C" void lle_X_printString(char* str) {
+  outs() << str;
+}
+
+extern "C" void lle_X_printLine(char* str) {
   outs() << "\n";
 }
 
@@ -262,8 +269,10 @@ FuncDeclAST* addDynamicFunc(const char* protoString, const char* newName,
 }
 
 void initRuntimeFuncs(ModuleDeclAST* modDecl) {
-  addDynamicFunc("fn eclayInt(_: int)", "lle_X_printInt", modDecl, (void*)lle_X_printInt);
-  addDynamicFunc("fn eclayDouble(_: float)", "lle_X_printDouble", modDecl, (void*)lle_X_printDouble);
+  addDynamicFunc("fn eclay(_: char)", "lle_X_printChar", modDecl, (void*)lle_X_printChar);
+  addDynamicFunc("fn eclay(_: int)", "lle_X_printInt", modDecl, (void*)lle_X_printInt);
+  addDynamicFunc("fn eclay(_: float)", "lle_X_printDouble", modDecl, (void*)lle_X_printDouble);
+  addDynamicFunc("fn eclay(_: string)", "lle_X_printString", modDecl, (void*)lle_X_printString);
   addDynamicFunc("fn eclamaticPause()", "lle_X_printLine", modDecl, (void*)lle_X_printLine);
 }
 

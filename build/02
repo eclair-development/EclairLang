@@ -1,0 +1,104 @@
+; ModuleID = 'eclair'
+source_filename = "eclair"
+target datalayout = "e-m:e-p270:32:32-p271:32:32-p272:64:64-i64:64-f80:128-n8:16:32:64-S128"
+
+declare void @lle_X_printInt(i32)
+
+declare void @lle_X_printDouble(double)
+
+declare void @lle_X_printLine()
+
+define i32 @_P9factoriali(i32 %n) {
+entry:
+  %0 = alloca i32, align 4
+  store i32 %n, ptr %0, align 4
+  %return.value = alloca i32, align 4
+  %n1 = load i32, ptr %0, align 4
+  %cmptmp = icmp slt i32 %n1, 2
+  br i1 %cmptmp, label %thenpart, label %elsepart
+
+thenpart:                                         ; preds = %entry
+  store i32 1, ptr %return.value, align 4
+  br label %return.block
+
+elsepart:                                         ; preds = %entry
+  %n2 = load i32, ptr %0, align 4
+  %n3 = load i32, ptr %0, align 4
+  %subtmp = sub i32 %n3, 1
+  %1 = call i32 @_P9factoriali(i32 %subtmp)
+  %multmp = mul i32 %n2, %1
+  store i32 %multmp, ptr %return.value, align 4
+  br label %return.block
+
+return.block:                                     ; preds = %elsepart, %thenpart
+  %2 = load i32, ptr %return.value, align 4
+  ret i32 %2
+}
+
+define i32 @_P9fibanachii(i32 %n) {
+entry:
+  %0 = alloca i32, align 4
+  store i32 %n, ptr %0, align 4
+  %return.value = alloca i32, align 4
+  %n1 = load i32, ptr %0, align 4
+  %cmptmp = icmp slt i32 %n1, 3
+  br i1 %cmptmp, label %thenpart, label %elsepart
+
+thenpart:                                         ; preds = %entry
+  store i32 1, ptr %return.value, align 4
+  br label %return.block
+
+elsepart:                                         ; preds = %entry
+  %n2 = load i32, ptr %0, align 4
+  %subtmp = sub i32 %n2, 1
+  %1 = call i32 @_P9fibanachii(i32 %subtmp)
+  %n3 = load i32, ptr %0, align 4
+  %subtmp4 = sub i32 %n3, 2
+  %2 = call i32 @_P9fibanachii(i32 %subtmp4)
+  %addtmp = add i32 %1, %2
+  store i32 %addtmp, ptr %return.value, align 4
+  br label %return.block
+
+return.block:                                     ; preds = %elsepart, %thenpart
+  %3 = load i32, ptr %return.value, align 4
+  ret i32 %3
+}
+
+define double @main() {
+entry:
+  %i = alloca i32, align 4
+  %return.value = alloca double, align 8
+  store i32 0, ptr %i, align 4
+  br label %loopcond
+
+loopcond:                                         ; preds = %postbody, %entry
+  %i1 = load i32, ptr %i, align 4
+  %cmptmp = icmp slt i32 %i1, 10
+  br i1 %cmptmp, label %loopbody, label %loopend
+
+loopbody:                                         ; preds = %loopcond
+  %i2 = load i32, ptr %i, align 4
+  call void @lle_X_printInt(i32 %i2)
+  call void @lle_X_printLine()
+  br label %postbody
+
+postbody:                                         ; preds = %loopbody
+  %i3 = load i32, ptr %i, align 4
+  %inctmp = add i32 %i3, 1
+  store i32 %inctmp, ptr %i, align 4
+  br label %loopcond
+
+loopend:                                          ; preds = %loopcond
+  br label %block
+
+block:                                            ; preds = %loopend
+  br label %block4
+
+block4:                                           ; preds = %block
+  store double 0.000000e+00, ptr %return.value, align 8
+  br label %return.block
+
+return.block:                                     ; preds = %block4
+  %0 = load double, ptr %return.value, align 8
+  ret double %0
+}

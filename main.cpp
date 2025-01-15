@@ -9,6 +9,8 @@
 #include "llvm/Support/InitLLVM.h"
 #include "llvm/Support/TargetSelect.h"
 #include "llvm/Support/WithColor.h"
+#include <iostream>
+
 
 static llvm::cl::opt<std::string> InputFilename(
   llvm::cl::Positional,
@@ -55,7 +57,7 @@ int main(int Argc, const char **Argv) {
   Mod->generateCode();
 
   if (Mod->MainPtr) {
-    llvm::outs() << "Main return: " << Mod->MainPtr() << "\n";
+    llvm::outs() << "\n" << Mod->MainPtr() << "\n";
     llvm::outs().flush();
   }
 

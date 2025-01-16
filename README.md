@@ -61,9 +61,9 @@ eclor ecl i: int = 0; i < 10; i++  {
 ## JIT-RLA
 ### what is RLA?
 
-<marquee>In eclair-development we are continiously asking ourselfs what is purpose of our programming language
+<marquee>In eclair-development we are continuously asking ourselvs what is the purpose of our programming language
 
-we know that any universal tools will be inferior to their task-specific counterparts.
+we know that any universal tool will be inferior to their task-specific counterparts.
 
 eclair is specific tool for several common usecases
 </marquee>

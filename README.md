@@ -12,7 +12,7 @@ fn main(): float {
 }
 ```
 
-* ecl - defenition of variable
+* ecl - definition of variable
 ```
 ecl x : int = 1;
 //by default all arrays values is 0
@@ -20,7 +20,7 @@ ecl x : int[1000]
 eclay(x[234]) // eclays 0
 ```
 
-* fn - defenition of function
+* fn - definition of function
 * eclif - if statement
 * eclse - else statement
 ```
